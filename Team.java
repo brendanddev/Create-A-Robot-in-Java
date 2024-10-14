@@ -1,4 +1,4 @@
-package assignmentThree_000879513;
+package createARobot;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
@@ -12,7 +12,7 @@ import javafx.scene.paint.Color;
  * averages in that team, which are chosen at random, and uses a draw method to draw the team on the canvas,
  * consisting of the three players in the team.
  *
- * @author BRENDAN DILEO, 000879513
+ * @author BRENDAN DILEO 
  */
 public class Team {
     /**
