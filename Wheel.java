@@ -1,4 +1,4 @@
-package assignmentThree_000879513;
+package createARobot;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
@@ -10,7 +10,7 @@ import javafx.scene.paint.Color;
  * which takes two parameters x, and y as the coordinates. The class also has a method responsible for drawing the
  * wheels using the Graphics Context as a parameter, drawing two skinny ovals which resemble the robots wheels.
  *
- * @author BRENDAN DILEO, 000879513
+ * @author BRENDAN DILEO 
  */
 
 public class Wheel {
