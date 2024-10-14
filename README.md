@@ -1,19 +1,37 @@
-# Java-Assignment-3-Create-A-Player
+# Create a Robot & Robot Olympics Simulation in Java
 
-This assignment mainly focusses on association, but also makes use of constructors and overloading. I have defined multiple classes for objects that can draw themselves on a GraphicsContext. All the objects will be related to one another through the relationship of association. Then I have created a simple
-graphical app to display each of the objects/classes.
+## About This Project
 
-The main idea/focus of this assignment is creating the 'Robot Olympics'. This will consist of three teams and a referee, these four objects are the model. The view for this assignment is a class created using FXGraphics which creates and draws the model. A team has a name and contains 3 players of the same color, each with a random number integer representing their win percentage (0-99). A player has a head and two wheels. The referee is a single player. The ref is not part of a team, but it was drawn from one of them, selected randomly at run time, and its color and title show that.
+This project simulates the "Robot Olympics," featuring three teams of players and a referee. Each team consists of three players, all with unique colors and random win percentages, showcasing the principles of object-oriented programming, association, and graphical rendering in Java. The design follows a model-view architecture, where the model contains the objects and their behaviors, while the view handles the graphical representation using the FXGraphicsTemplate.
 
-The Head class will consist of an oval, rectangle, or other head-like shape with a neck shape attached. The x and y location determine its top left corner and the neck will be drawn relative to that. 
+## Code Structure
 
-The Wheel class is a rectangle, oval or other wheel-like shape and its x and y location determine its top left corner. 
+The project is organized into several classes that represent different components of the Robot Olympics:
 
-The Player class is a body shape with its win percentage displayed within it. The Players in each Team have the empty string as a title, but the referee has a non-empty title. A Player’s x and y location are determined by the top left corner of its body shape, and it contains two Wheels and a Head, appropriately sized, somewhere within or around
-its body.
+- **Head**: Represents a player's head with a shape and neck, positioned according to the player's location.
+- **Wheel**: Represents a wheel with a defined shape, also positioned based on the player.
+- **Player**: Represents a player with a body shape, win percentage, and associated head and wheels. Includes constructors for regular players and a referee.
+- **Team**: Contains three players of the same color, positioned in a line. It calculates and displays the team's average win percentage.
+- **ThreeTeams**: Acts as the view for the model, creating and drawing the teams and the referee.
 
-The first constructor creates a regular player with an empty title and a random win percentage. The second constructor is used to create the referee with a non-empty title and a win percentage of 100. Player constructors create Head and Wheel objects with placement based on the Player’s own location. The draw method draws the body and title for the Player, then calls the Head and Wheel draw methods.
+## Features
 
-A Team has three Players of the same color. The Players in a Team are drawn in a straight line from left to right, spaced out nicely. The location of a Team corresponds to the location its first Player. The Team constructor creates the Players. When a Team draws itself, it calls the Player draw methods, then it draws text underneath with the name of the Team and its average win percentage. The ThreeTeams class to serve as the view for the model described above. This class will be based on FXGraphicsTemplate. It should create three Teams and a Referee from one of the teams (selected randomly) and draw them. If done correctly, this should only take a few lines of code (to create and draw each object).
+- **Dynamic Elements**: Randomly generated win percentages and player attributes to ensure varied gameplay experiences on each run.
+- **Graphical Rendering**: Utilizes Java's graphics capabilities to draw players, teams, and the referee on the screen.
+- **Object-Oriented Design**: Implements principles of encapsulation, constructors, and overloading, along with associations between classes.
 
-This assingment was made for the Programming In Java course at Mohawk College, I had achieved a grade of 100%.
+## Getting Started
+
+To run the project, clone the repository and compile the Java files. Use your preferred IDE or the command line to execute the main class, which initializes and displays the Robot Olympics.
+
+## Further Enhancements
+
+Feel free to explore creative extensions to the project, such as:
+- Additional player types or structures.
+- Animations and sound effects.
+- More complex team dynamics or competition formats.
+
+## Documentation
+
+All classes are documented following JavaDoc standards to ensure clarity and maintainability.
+
