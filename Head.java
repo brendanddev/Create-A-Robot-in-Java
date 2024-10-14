@@ -11,7 +11,7 @@ import javafx.scene.paint.Color;
  * parameter, and the method is responsible for drawing two rectangles, which will appear as the neck, and
  * head of the robot. In addition to the two rectangles, the method will also draw eyes, and a mouth on the players head.
  *
- * @author BRENDAN DILEO, 000879513
+ * @author BRENDAN DILEO 
  */
 
 public class Head {
