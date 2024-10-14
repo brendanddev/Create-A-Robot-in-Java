@@ -1,4 +1,4 @@
-package assignmentThree_000879513;
+package createARobot;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
@@ -12,7 +12,7 @@ import javafx.scene.shape.ArcType;
  * be responsible for drawing the Shield using the Graphics Context gc as a parameter for the method. The method when
  * called upon will draw a round arc, which I have tried to resemble a shield.
  *
- * author BRENDAN DILEO, 000879513
+ * author BRENDAN DILEO 
  */
 public class Shield {
 
