@@ -18,10 +18,9 @@ import java.util.Random;
  * chosen at random, and the referees average is set to 100 no matter what. The referees color is decided randomly
  * depending on the team colors of the players, and the title is chosen randomly depending on the team names/titles.
  * The class also has a getter method to get the players average, and includes two other methods for choosing a
- * random color for the referee, and random title for the referee from the players colors and titles. Despite the UML,
- * or assignment not specifying where the random methods would go, I felt this class was the best fit for them.
+ * random color for the referee, and random title for the referee from the players colors and titles.
  *
- * @author BRENDAN DILEO, 000879513
+ * @author BRENDAN DILEO 
  */
 public class Player {
     /**
