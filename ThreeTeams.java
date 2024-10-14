@@ -1,4 +1,4 @@
-package assignmentThree_000879513;
+package createARobot;
 
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -12,7 +12,7 @@ import javafx.stage.Stage;
  * This class acts as the view model for the Robot Summer Olympics. It contains little to no logic, and creates the
  * canvas and drawings on using JavaFX.
  *
- * @author BRENDAN DILEO, 000879513
+ * @author BRENDAN DILEO 
  */
 public class ThreeTeams extends Application {
 
