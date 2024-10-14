@@ -1,4 +1,4 @@
-package assignmentThree_000879513;
+package createARobot;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
@@ -11,7 +11,7 @@ import javafx.scene.paint.Color;
  * has a method responsible for drawing the sword using the Graphics Context gc as a parameter, which will draw
  * a skinny longer rectangle as the swords blade, and a smaller wider rectangle as the swords grip.
  *
- * @author BRENDAN DILEO, 000879513
+ * @author BRENDAN DILEO 
  */
 
 public class Sword {
